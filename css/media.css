@@ -1,0 +1,74 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .box{
+        background-color: rgb(189, 135, 78);
+    }
+    .title{
+        color: rgb(2, 140, 175);
+        font-size: 20px;
+    }
+    .text{
+        font-size: 16px;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .box{
+        background-color: rgb(186, 222, 54);
+    }
+    .title{
+        color: rgb(2, 140, 175);
+        font-size: 20px;
+    }
+    .text{
+        font-size: 16px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .box{
+        background-color: rgb(27, 222, 209);
+    }
+    .title{
+        color: rgb(2, 175, 8);
+        font-size: 25px;
+    }
+    .text{
+        font-size: 20px;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .box{
+        background-color: rgb(54, 88, 222);
+    }
+    .title{
+        color: rgb(175, 2, 146);
+        font-size: 30px;
+    }
+    .text{
+        font-size: 16px;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+    .box{
+        background-color: rgb(222, 54, 208);
+    }
+    .title{
+        color: rgb(175, 2, 37);
+        font-size: 30px;
+    }
+    .text{
+        font-size: 16px;
+    }
+}
+
+/* Extra large devices (large desktops, 1400px and up) */
+@media (min-width: 1400px) {
+
+}
